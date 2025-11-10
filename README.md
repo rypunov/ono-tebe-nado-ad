@@ -1,1 +1,1 @@
-https://github.com/rypunov/ono-tebe-nado-ad#
+https://github.com/rypunov/ono-tebe-nado-ad
