@@ -133,20 +133,36 @@
     </main>
 
     <footer class="footer">
-      <address>
-        <span>+9 999 555 5555</span>
-        <span>info@sobaka.ge</span>
-        <span>наб. Принсенграхт 263- 265, Амстердам</span>
+      <address class="address footer__address">
+        <a href="tel:+99995555555" class="footer__address-link">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge" class="footer__address-link">info@sobaka.ge</a>
+        <span class="footer__address-text">наб. Принсенграхт 263–265, Амстердам</span>
       </address>
-      <nav>
-        <span>главная</span>
-        <span>посмотреть лоты</span> <!--TODO Добавить подчеркивание-->
-        <span>об аукционе</span> <!--TODO Добавить подчеркивание-->
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li>
+            <a href="#cover" class="footer__menu-link footer__menu-link--active">главная</a>
+          </li>
+          <li><a href="#lots" class="footer__menu-link">посмотреть лоты</a></li>
+          <li><a href="#about" class="footer__menu-link">об аукционе</a></li>
+        </ul>
       </nav>
-      <ul>
-        <li><a></a></li>
-        <li><a></a></li>
-        <li><a></a></li>
+      <ul class="footer__socials-list">
+        <li>
+          <a href="#" class="footer__socials-link">
+            <img src="./images/yt.svg" alt="YouTube" width="48" height="48" />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="footer__socials-link">
+            <img src="./images/vk.svg" alt="ВКонтакте" width="48" height="48" />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="footer__socials-link">
+            <img src="./images/pinterest.svg" alt="Pinterest" width="48" height="48" />
+          </a>
+        </li>
       </ul>
     </footer>
   </body>
