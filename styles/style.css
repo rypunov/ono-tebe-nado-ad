@@ -282,7 +282,7 @@
 }
 
 .footer__menu-link {
-  text-align: center; 
+  text-align: center;
 }
 
 .footer__menu-link--active {
@@ -294,5 +294,5 @@
   align-items: center;
   gap: 48px;
   list-style: none;
-  justify-self: end; 
+  justify-self: end;
 }
