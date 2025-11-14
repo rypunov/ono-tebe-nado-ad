@@ -1,19 +1,56 @@
-.header {
+/* .body {
+    background-color: #FFF;
+} */
 
+.header {
+    height: 293px;
+    padding: 92px 50px 96px 50px;
+    background-color: aqua;
 }
 
 .cover {
-
+    height: 757px;
+    padding: 165px 50px 50px;
+    background-color:aquamarine;
+    background-image: url('../images/cover.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .lots {
+    height: 723px;
+    background-color:blue;
+    margin: 180px 24px 120px;
+}
 
+.card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-film {
+    background-image: url("../images/card-lot-01.jpg");
+}
+
+.card-book {
+    background-image: url("../images/card-lot-02.jpg");
+}
+
+.card-painting {
+    background-image: url("../images/card-lot-03.jpg");
 }
 
 .about {
-
+    height: 595px;
+    background-color:blueviolet;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 180px;
 }
 
 .footer {
-
+    height: 180px;
+    background-color:brown;
 }
