@@ -3,9 +3,45 @@
 } */
 
 .header {
-    height: 293px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
     padding: 92px 50px 96px 50px;
-    background-color: aqua;
+    font-size: 18px;
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+  list-style-position: outside;
+}
+
+.header-menu-link {
+  text-underline-offset: 5px;
+  white-space: nowrap;
+}
+
+.header-menu-item-active {
+  list-style: none;
+}
+
+.header-menu-link-active {
+  text-decoration: none;
+}
+
+.header-logo-img {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.header__address {
+  max-width: 235px;
+  font-style: normal;
+  margin-left: 184px;
+  line-height: 1.24;
+  text-underline-offset: 3px;
 }
 
 .cover {
