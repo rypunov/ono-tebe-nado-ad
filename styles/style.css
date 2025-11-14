@@ -1,58 +1,132 @@
-/* .body {
+.body {
     background-color: #FFF;
-} */
+}
 
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 50px 96px 50px;
+    padding: 92px 50px 96px;
     font-size: 18px;
 }
 
-.header-menu-list {
+.header__links-list {
   display: flex;
-  gap: 32px;
+  gap: 30px;
   list-style: circle;
   list-style-position: outside;
 }
 
-.header-menu-link {
+.header__link {
   text-underline-offset: 5px;
   white-space: nowrap;
 }
 
-.header-menu-item-active {
+.header__links-list-item_no-bullit {
   list-style: none;
 }
 
-.header-menu-link-active {
+.header__link_active {
   text-decoration: none;
 }
 
-.header-logo-img {
+.header__logo-image {
   display: block;
   width: 148px;
   height: 105px;
 }
 
-.header__address {
-  max-width: 235px;
+.address {
+  max-width: 240px;
   font-style: normal;
-  margin-left: 184px;
   line-height: 1.24;
-  text-underline-offset: 3px;
+  text-underline-offset: 5px;
+}
+
+.header__address {
+  justify-self: end;
 }
 
 .cover {
-    height: 757px;
-    padding: 165px 50px 50px;
-    background-color:aquamarine;
-    background-image: url('../images/cover.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-image: url('../images/cover.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 165px 50px 50px;
+  color: white;
+  gap: 106px;
 }
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  inset: 0;
+  z-index: 1;
+}
+
+.cover__title {
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 1.15;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+.cover__title-line {
+  display: block;
+  margin-bottom: 20px;
+  letter-spacing: 0.3em;
+}
+
+.aligned-text {
+  text-align: left;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+  margin-bottom: 0px;
+}
+
+.cover__description {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 107px;
+  z-index: 2;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  line-height: 1.2;
+  word-spacing: 18px;
+  text-transform: uppercase;
+}
+
+.bet-button {
+  color: inherit;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 12px 32px;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+
+
+
+
 
 .lots {
     height: 723px;
